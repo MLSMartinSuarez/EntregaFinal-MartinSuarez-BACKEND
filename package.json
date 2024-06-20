@@ -1,0 +1,25 @@
+{
+  "name": "preentrega-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "MartinSuarez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  },
+
+  "engine": {
+    "node" : "16,x"
+  }
+}
+  
+
